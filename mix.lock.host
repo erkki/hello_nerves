@@ -1,0 +1,8 @@
+%{
+  "distillery": {:hex, :distillery, "1.5.2", "eec18b2d37b55b0bcb670cf2bcf64228ed38ce8b046bb30a9b636a6f5a4c0080", [:mix], [], "hexpm"},
+  "dns": {:hex, :dns, "1.0.1", "1d88187fdf564d937cee202949141090707fd0c9d7fcae903a6878ef24ef5d1e", [:mix], [{:socket, "~> 0.3.12", [hex: :socket, repo: "hexpm", optional: false]}], "hexpm"},
+  "mdns": {:hex, :mdns, "0.1.7", "7b949773ff5809bb720256171767db1c9bf21eea477128b361a92b0c5e6af220", [:mix], [{:dns, "~> 1.0", [hex: :dns, repo: "hexpm", optional: false]}], "hexpm"},
+  "nerves": {:hex, :nerves, "0.10.0", "8558b661f92acb1c01689bb1b750362c58733ac4305aa305ce418b2ed2af3f20", [:mix], [{:distillery, "~> 1.4", [hex: :distillery, repo: "hexpm", optional: false]}], "hexpm"},
+  "ring_logger": {:hex, :ring_logger, "0.4.0", "d58b2d9be6350d291fde90c734dcd56cb50b9be7cae4868163088db84a499e92", [:mix], [], "hexpm"},
+  "socket": {:hex, :socket, "0.3.13", "98a2ab20ce17f95fb512c5cadddba32b57273e0d2dba2d2e5f976c5969d0c632", [:mix], [], "hexpm"},
+}
